@@ -1,105 +1,41 @@
-/* GENERAL */
-body {
-  margin: 0;
-  font-family: "Segoe UI", Arial, sans-serif;
-  background: #000;
-  color: #ccc;
-  text-align: center;
+
+
+/* FOOTER SECTION */
+.student-footer {
+  width: 90%;
+  margin: 120px auto 40px auto;
+  padding-top: 40px;
+  border-top: 1px solid #ddd;
 }
 
-/* PROFILE SECTION */
-.hero {
-  max-width: 900px;
-  margin: auto;
-  padding: 60px 20px;
+.student-footer h4 {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #333;
 }
 
-.profile-img {
-  width: 130px;
-  height: 130px;
-  border-radius: 50%;
-  object-fit: cover;
-  display: block;
-  margin: auto;
+/* TABLE STYLING */
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
 }
 
-.hero-text {
-  margin: 30px auto;
-  line-height: 1.7;
-  font-size: 17px;
-  max-width: 850px;
+.student-table th {
+  text-align: left;
+  padding: 12px 10px;
+  background: #f3f3f3;
+  border-bottom: 2px solid #ccc;
+  font-weight: bold;
 }
 
-/* ICONS */
-.social i {
-  font-size: 20px;
-  color: #ccc;
-  padding: 12px;
-  border: 1px solid #333;
-  border-radius: 50%;
-  margin: 0 5px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.social i:hover {
-  background: #333;
-}
-
-/* GALLERY */
-.gallery {
-  max-width: 1150px;
-  margin: 50px auto;
+.student-table td {
   padding: 10px;
-  column-count: 3;
-  column-gap: 30px;
+  border-bottom: 1px solid #e5e5e5;
 }
 
-.card {
-  background: #111;
-  border-radius: 6px;
-  margin-bottom: 30px;
-  display: inline-block;
-  width: 100%;
-  overflow: hidden;
-  break-inside: avoid;
+.student-table tr:hover {
+  background: #f8f8f8;
 }
-
-.card img {
-  width: 100%;
-  height: auto;
-  display: block;
-  object-fit: cover;
-}
-
-.card p {
-  background: #111;
-  padding: 14px 10px;
-  margin: 0;
-  font-size: 15px;
-  color: #ccc;
-}
-
-/* FOOTER */
-footer {
-  margin: 40px 0;
-  color: #777;
-  font-size: 13px;
-}
-
-@media (max-width: 900px) {
-  .gallery {
-    column-count: 2;
-  }
-}
-
-@media (max-width: 600px) {
-  .gallery {
-    column-count: 1;
-  }
-
-  .hero-text {
-    font-size: 15px;
-  }
-}
-
