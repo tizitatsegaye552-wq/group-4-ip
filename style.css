@@ -1,0 +1,126 @@
+/* GLOBAL BODY SETTINGS */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    background: #fff;
+}
+
+.container {
+    width: 90%;
+    margin: 40px auto;
+}
+
+/* MAIN HEADING */
+h1 {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 48px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+/* SUBTEXT */
+.subtext {
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 120px;
+}
+
+/* BUTTON */
+.cta {
+    font-family: Helvetica, Arial, sans-serif;
+    background: #0AA16B;
+    color: white;
+    font-size: 18px;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    display: block;
+    margin-left: 260px;
+    margin-bottom: 120px;
+}
+
+.cta:hover {
+    background: #088a5a;
+}
+
+/* RIGHT-SIDE CONTENT BLOCK */
+.right-section {
+    width: 45%;
+    float: right;
+    margin-top: -280px;
+}
+
+.right-section h3 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.right-section p {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+    color: #444;
+}
+
+.highlight {
+    background-color: #d6f5e3;
+    padding: 2px 4px;
+}
+
+.divider {
+    width: 45%;
+    margin: 180px auto 0 auto;
+    border: none;
+    border-top: 1px solid #bbb;
+}
+
+/* FOOTER SECTION */
+.student-footer {
+    width: 90%;
+    margin: 120px auto 40px auto;
+    padding-top: 40px;
+    border-top: 1px solid #ddd;
+}
+
+.student-footer h4 {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* TABLE STYLING */
+.student-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+.student-table th {
+    text-align: left;
+    padding: 12px 10px;
+    background: #f3f3f3;
+    border-bottom: 2px solid #ccc;
+    font-weight: bold;
+}
+
+.student-table td {
+    padding: 10px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.student-table tr:hover {
+    background: #f8f8f8;
+}
